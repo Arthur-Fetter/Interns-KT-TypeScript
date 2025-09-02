@@ -73,6 +73,6 @@ And also add a start script to our package.json file, so you should add to your 
 }
 ```
 Note that you have to run both application, each on a different terminal.
-### 5. have fun building!
+### 5. Have fun building!
 Now you have fully functional configuration, all that remains is building the project! 
 I encourage you to research on how Express to build a simple API with express and a simple webserver with Vite. Start by having a 'hello world' route on your API, and reach it from your client.

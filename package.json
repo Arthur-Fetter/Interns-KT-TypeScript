@@ -1,0 +1,16 @@
+{
+  "name": "interns-kt-typescript",
+  "version": "1.0.0",
+  "description": "This repo contains the step-by-step on how to set up the tools needed to build an example project using Vite with a backend API on Express.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gp:Arthur-Fetter/Interns-KT-TypeScript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

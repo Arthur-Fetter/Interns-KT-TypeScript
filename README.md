@@ -29,10 +29,10 @@ mkdir server && cd server/
 npm init -y
 npm install express cors 
 npm install -D tsx typescript @types/express @types/node ts-node-dev
-touch src/index.ts
-
+mkdir src && cd src
+touch index.ts
 ```
-Now we have to configure typescript. For this, run `touch tsconfig.json` and paste into it the following json:
+Now we have to configure typescript. For this, go to your `server/` directory and run `touch tsconfig.json` and paste into it the following json:
 ```
 {
   "compilerOptions": {
@@ -72,7 +72,7 @@ And also add a start script to our package.json file, so you should add to your 
     "dev": "tsx watch src/index.ts" // <-- Add this line to your package.json
 }
 ```
-Note that you have to run both application, each on a different terminal.
+You can now run each service by going to their root and running `npm run dev`. Note that you have to run both application, each on a different terminal. The express API isn't implemented yet, so it will not give you any output.
 ### 5. Have fun building!
 Now you have fully functional configuration, all that remains is building the project! 
 I encourage you to research on how Express to build a simple API with express and a simple webserver with Vite. Start by having a 'hello world' route on your API, and reach it from your client.

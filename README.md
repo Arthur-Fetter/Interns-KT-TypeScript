@@ -28,7 +28,7 @@ On the root of the project, type the following:
 mkdir server && cd server/
 npm init -y
 npm install express cors 
-npm install -D tsx typescript @types/express @types/node ts-node-dev
+npm install -D tsx typescript @types/express @types/node @types/cors ts-node-dev
 mkdir src && cd src
 touch index.ts
 ```
